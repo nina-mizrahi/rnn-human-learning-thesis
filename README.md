@@ -1,4 +1,4 @@
-# Modeling Human-Like Learning in AI: Hexxed.io + RNNs
+# Modeling Human-Like Learning in AI: Evaluating RNNS Capacity to Replicate Human Leaps of Insight in Sequential Decision making
 
 This repository contains the code and research artifacts from my senior thesis in Computational Neuroscience at the Claremont Colleges. The project investigates whether Recurrent Neural Networks (RNNs), particularly LSTMs, can replicate human "leaps of insight"—sudden strategic breakthroughs—in sequential decision-making tasks.
 
