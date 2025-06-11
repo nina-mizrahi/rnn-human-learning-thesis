@@ -34,7 +34,7 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 - `Model_Comparison.ipynb`: Compares performance of RNNs vs control models, including feature ablations.
 - `Sequence_Tracking.ipynb`: Analyzes accuracy across sequence steps to evaluate temporal modeling.
 - `NMizrahiPoster.pdf`: A one-page visual summary of the experiment, methods, and key findings.
-- `thesis/`: Full thesis PDF for academic context.
+- `NMizrahi_thesis-2`: Full thesis for academic context.
 
 >  All notebooks were re-run for GitHub upload and may show minor differences in results compared to the thesis and poster due to retraining variance.
 
@@ -69,4 +69,4 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 If referencing this work, please cite:
 
-> Mizrahi, N. L. (2024). *Modeling Human-Like Learning in AI: Evaluating Recurrent Neural Networks' Capacity to Replicate Human Leaps of Insight in Sequential Decision-Making.* Senior Thesis, Scripps College, W. M. Keck Science Department.
+> Mizrahi, N. L. (2024). Modeling Human-Like Learning in AI: Evaluating Recurrent Neural Networks' Capacity to Replicate Human Leaps of Insight in Sequential Decision-Making. Senior Thesis, Scripps College, W. M. Keck Science Department.
