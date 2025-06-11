@@ -1,6 +1,8 @@
-# Modeling Human-Like Learning in AI: Evaluating RNNS Capacity to Replicate Human Leaps of Insight in Sequential Decision making
+# Modeling Human-Like Learning in AI: Evaluating RNNs' Capacity to Replicate Human Leaps of Insight in Sequential Decision-Making
 
-This repository contains the code and research artifacts from my senior thesis in Computational Neuroscience at the Claremont Colleges. The project investigates whether Recurrent Neural Networks (RNNs), particularly LSTMs, can replicate human "leaps of insight"—sudden strategic breakthroughs—in sequential decision-making tasks.
+This repository contains the code and research artifacts from my senior thesis in Computational Neuroscience at the Claremont Colleges. The project investigates the extent that Recurrent Neural Networks (RNNs), particularly LSTMs, can replicate human "leaps of insight"—sudden strategic breakthroughs—in sequential decision-making tasks.
+
+**Note:** Certain gameplay outputs and original user data from Hexxed.io were redacted to protect participant confidentiality.
 
 ---
 
@@ -26,17 +28,23 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 ## 📁 Repository Contents
 
-- `Github_copy_of_Winners_Only.ipynb`: Main notebook for training, testing, and analyzing RNN models on Hexxed gameplay data.  
-- `data/`: (If available) Processed and padded gameplay sequences from Hexxed.io.  
-- `models/`: Control models, RNN architectures, and masked loss functions.  
-- `figures/`: Visuals including accuracy curves, confusion matrices, and architecture diagrams.  
-- `thesis/`: [Optional] Full thesis PDF or DOCX if included for context.
+- `Player_Gameplay_Data_Preprocessing.ipynb`: Processes raw user action sequences and generates board state/action datasets.
+- `Control_Models.ipynb`: Implements and evaluates linear and nonlinear dense control models.
+- `RNNs.ipynb`: Builds 3 RNN architectures with varying LSTM layers to model sequential dependencies. Includes custom masked loss and accuracy functions
+- `Model_Comparison.ipynb`: Compares performance of RNNs vs control models, including feature ablations.
+- `Sequence_Tracking.ipynb`: Analyzes accuracy across sequence steps to evaluate temporal modeling.
+- `NMizrahiPoster.pdf`: A one-page visual summary of the experiment, methods, and key findings.
+- `thesis/`: Full thesis PDF for academic context.
+
+> 📌 All notebooks were originally developed in a single file and later split into modular parts for ease of navigation. For best results, follow the order listed above.
+
+> 🔁 All notebooks were re-run for GitHub upload and may show minor differences in results compared to the thesis and poster due to retraining variance.
 
 ---
 
 ## 📈 Key Results
 
-- A single-layer LSTM model outperformed dense control networks, achieving ~68% validation accuracy.  
+- A single-layer LSTM model outperformed dense control networks, achieving ~69% validation accuracy.  
 - Temporal structure was more important than depth or non-linearity for modeling behavior.  
 - RNNs captured aspects of strategic learning but failed to replicate true "leaps of insight."
 
@@ -63,4 +71,4 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 If referencing this work, please cite:
 
-> Mizrahi, N. L. (2024). *Modeling Human-Like Learning in AI: Evaluating Recurrent Neural Networks' Capacity to Replicate Human Leaps of Insight in Sequential Decision-Making.* Senior Thesis, Claremont McKenna, Scripps, and Pitzer Colleges.
+> Mizrahi, N. L. (2024). *Modeling Human-Like Learning in AI: Evaluating Recurrent Neural Networks' Capacity to Replicate Human Leaps of Insight in Sequential Decision-Making.* Senior Thesis, Scripps College, W. M. Keck Science Department.
