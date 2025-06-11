@@ -6,7 +6,7 @@ This repository contains the code and research artifacts from my senior thesis i
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 Humans often solve complex problems not just through trial-and-error, but through sudden shifts in understanding. This research explores how AI, which typically learns iteratively and incrementally, compares to human learning in this regard.
 
@@ -18,7 +18,7 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 ---
 
-## 🧠 Core Research Questions
+## Core Research Questions
 
 - Can RNNs emulate top-down cognitive shifts using bottom-up learning mechanisms?  
 - Do temporal dependencies improve predictive accuracy in human-like learning scenarios?  
@@ -27,7 +27,7 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 ---
 
 ## 📁 Repository Contents
-
+> 📌 All notebooks were originally developed in a single file and later split into modular parts for ease of navigation. For best results, follow the order listed below.
 - `Player_Gameplay_Data_Preprocessing.ipynb`: Processes raw user action sequences and generates board state/action datasets.
 - `Control_Models.ipynb`: Implements and evaluates linear and nonlinear dense control models.
 - `RNNs.ipynb`: Builds 3 RNN architectures with varying LSTM layers to model sequential dependencies. Includes custom masked loss and accuracy functions
@@ -36,13 +36,11 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 - `NMizrahiPoster.pdf`: A one-page visual summary of the experiment, methods, and key findings.
 - `thesis/`: Full thesis PDF for academic context.
 
-> 📌 All notebooks were originally developed in a single file and later split into modular parts for ease of navigation. For best results, follow the order listed above.
-
-> 🔁 All notebooks were re-run for GitHub upload and may show minor differences in results compared to the thesis and poster due to retraining variance.
+>  All notebooks were re-run for GitHub upload and may show minor differences in results compared to the thesis and poster due to retraining variance.
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 - A single-layer LSTM model outperformed dense control networks, achieving ~69% validation accuracy.  
 - Temporal structure was more important than depth or non-linearity for modeling behavior.  
@@ -50,7 +48,7 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 ---
 
-## 🧰 Tools & Frameworks
+## Tools & Frameworks
 
 - Python  
 - TensorFlow / Keras  
@@ -59,7 +57,7 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 ---
 
-## 🧪 Future Directions
+## Future Directions
 
 - Incorporate reinforcement learning to simulate top-down learning signals like reward and motivation.  
 - Expand dataset to longer and more diverse player sequences.  
@@ -67,7 +65,7 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 ---
 
-## 📜 Citation
+## Citation
 
 If referencing this work, please cite:
 
