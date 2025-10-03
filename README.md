@@ -28,6 +28,7 @@ Using gameplay data from **Hexxed.io**, a six-lobed puzzle game where players le
 
 ## 📁 Repository Contents
 > 📌 All notebooks were originally developed in a single file and later split into modular parts for ease of navigation. For best results, follow the order listed below.
+- `data/dummy_dataset.csv`:  The dataset has been anonymized — original user IDs have been replaced with user_1, user_2, etc. Only data from 5 randomly selected users is included. This small subset allows users to understand the preprocessing, analysis, and workflow in the notebooks without exposing any sensitive information.
 - `Player_Gameplay_Data_Preprocessing.ipynb`: Processes raw user action sequences and generates board state/action datasets.
 - `Control_Models.ipynb`: Implements and evaluates linear and nonlinear dense control models.
 - `RNNs.ipynb`: Builds 3 RNN architectures with varying LSTM layers to model sequential dependencies. Includes custom masked loss and accuracy functions
